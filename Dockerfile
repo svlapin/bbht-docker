@@ -58,7 +58,8 @@ RUN \
   libcurl4-openssl-dev libssl-dev \
   # wpscan
   curl ruby-full build-essential patch ruby-dev zlib1g-dev liblzma-dev \
-  jq \
+  # lazyrecon
+  jq dnsutils rename nmap \
   # python
   python3 python3-dev python3-setuptools python3-pip python-dnspython \
   python-dev python-pip python-setuptools && \
