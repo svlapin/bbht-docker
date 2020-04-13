@@ -84,6 +84,6 @@ RUN \
   cd $tools_dir/SecLists/Discovery/DNS && \
   cat dns-Jhaddix.txt | head -n -14 > clean-jhaddix-dns.txt
 
-WORKDIR $tools_dir
+WORKDIR $home_dir
 
 ENTRYPOINT ["/bin/bash", "-c"]
